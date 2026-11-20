@@ -1,11 +1,9 @@
 package com.example.BookEcommerce.controller;
 
-package com.example.bookshop.controller;
-
-import com.example.bookshop.dto.request.ChangePasswordRequest;
-import com.example.bookshop.dto.request.UpdateProfileRequest;
-import com.example.bookshop.dto.response.UserProfileResponse;
-import com.example.bookshop.service.UserService;
+import com.example.BookEcommerce.dto.request.ChangePasswordRequest;
+import com.example.BookEcommerce.dto.request.UpdateProfileRequest;
+import com.example.BookEcommerce.dto.response.UserProfileResponse;
+import com.example.BookEcommerce.service.UserService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;

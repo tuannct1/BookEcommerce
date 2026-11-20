@@ -1,11 +1,11 @@
 package com.example.BookEcommerce.service;
 
 
-import com.example.bookshop.dto.request.ChangePasswordRequest;
-import com.example.bookshop.dto.request.UpdateProfileRequest;
-import com.example.bookshop.dto.response.UserProfileResponse;
-import com.example.bookshop.entity.User;
-import com.example.bookshop.repository.UserRepository;
+import com.example.BookEcommerce.dto.request.ChangePasswordRequest;
+import com.example.BookEcommerce.dto.request.UpdateProfileRequest;
+import com.example.BookEcommerce.dto.response.UserProfileResponse;
+import com.example.BookEcommerce.entity.User;
+import com.example.BookEcommerce.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
