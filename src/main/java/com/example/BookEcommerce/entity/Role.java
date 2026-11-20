@@ -24,7 +24,14 @@ public class Role {
     private Long id;
     @Column(name = "role_name", unique = true, nullable = false, length = 50)
     private String roleName;
+<<<<<<< HEAD
 
     @ManyToMany(mappedBy = "roles")
     private Set<User> users;
 }
+=======
+    
+    @ManyToMany(mappedBy = "roles")
+    private Set<User> users;
+}
+>>>>>>> 776945f592f9c355801824d92f090976f066ac1d

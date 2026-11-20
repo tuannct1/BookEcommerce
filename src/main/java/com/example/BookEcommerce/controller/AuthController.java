@@ -1,12 +1,12 @@
 package com.example.BookEcommerce.controller;
 
 
-import com.example.bookshop.dto.request.LoginRequest;
-import com.example.bookshop.dto.request.RefreshTokenRequest;
-import com.example.bookshop.dto.request.RegisterRequest;
-import com.example.bookshop.dto.request.VerifyOtpRequest;
-import com.example.bookshop.dto.response.LoginResponse;
-import com.example.bookshop.service.AuthService;
+import com.example.BookEcommerce.dto.request.LoginRequest;
+import com.example.BookEcommerce.dto.request.RefreshTokenRequest;
+import com.example.BookEcommerce.dto.request.RegisterRequest;
+import com.example.BookEcommerce.dto.request.VerifyOtpRequest;
+import com.example.BookEcommerce.dto.response.LoginResponse;
+import com.example.BookEcommerce.service.AuthService;
 
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;

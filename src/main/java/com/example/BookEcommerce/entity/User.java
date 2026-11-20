@@ -1,6 +1,9 @@
 package com.example.BookEcommerce.entity;
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 776945f592f9c355801824d92f090976f066ac1d
 import java.util.Set;
 
 import jakarta.persistence.Column;
@@ -25,7 +28,11 @@ import lombok.*;
 public class User extends BaseEntity{
     @Id
     @GeneratedValue( strategy = GenerationType.IDENTITY)
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> 776945f592f9c355801824d92f090976f066ac1d
     private Long id;
     @Column(name = "email", unique = true, nullable = false, length = 100)
     private String email;
@@ -42,9 +49,15 @@ public class User extends BaseEntity{
 
     @ManyToMany
     @JoinTable(
+<<<<<<< HEAD
             name = "user_roles",
             joinColumns = @JoinColumn(name = "user_id"),
             inverseJoinColumns = @JoinColumn(name = "role_id")
+=======
+        name = "user_roles",
+        joinColumns = @JoinColumn(name = "user_id"),
+        inverseJoinColumns = @JoinColumn(name = "role_id")
+>>>>>>> 776945f592f9c355801824d92f090976f066ac1d
     )
     private Set<Role> roles;
 
@@ -53,7 +66,14 @@ public class User extends BaseEntity{
 
     @OneToMany(mappedBy = "user")
     private Set<Order> orders;
+<<<<<<< HEAD
 
     @OneToMany(mappedBy = "user")
     private Set<Review> reviews;
 }
+=======
+    
+    @OneToMany(mappedBy = "user")
+    private Set<Review> reviews;
+}
+>>>>>>> 776945f592f9c355801824d92f090976f066ac1d

@@ -2,15 +2,15 @@ package com.example.BookEcommerce.service;
 
 
 
-import com.example.bookshop.dto.request.CheckoutRequestDTO;
-import com.example.bookshop.dto.response.OrderResponseDTO;
-import com.example.bookshop.entity.*;
-import com.example.bookshop.enums.BookStatus;
-import com.example.bookshop.enums.OrderStatus;
-import com.example.bookshop.enums.PaymentMethod;
-import com.example.bookshop.enums.PaymentStatus;
-import com.example.bookshop.mapper.OrderMapper;
-import com.example.bookshop.repository.*;
+import com.example.BookEcommerce.dto.request.CheckoutRequestDTO;
+import com.example.BookEcommerce.dto.response.OrderResponseDTO;
+import com.example.BookEcommerce.entity.*;
+import com.example.BookEcommerce.enums.BookStatus;
+import com.example.BookEcommerce.enums.OrderStatus;
+import com.example.BookEcommerce.enums.PaymentMethod;
+import com.example.BookEcommerce.enums.PaymentStatus;
+import com.example.BookEcommerce.mapper.OrderMapper;
+import com.example.BookEcommerce.repository.*;
 import lombok.RequiredArgsConstructor;
 
 import org.springframework.data.domain.Page;
